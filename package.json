@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Setup",
   "main": "src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
@@ -17,6 +17,7 @@
     "express": "^4.16.4",
     "helmet": "^3.18.0",
     "pg": "^8.5.0",
+    "postgresql": "0.0.1",
     "socket.io": "^2.2.0",
     "ws": "^7.0.0"
   },
@@ -28,5 +29,13 @@
     "setupFilesAfterEnv": [
       "<rootDir>/src/setupTests.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyaJagadish/scheduler-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DivyaJagadish/scheduler-api/issues"
+  },
+  "homepage": "https://github.com/DivyaJagadish/scheduler-api#readme"
 }
